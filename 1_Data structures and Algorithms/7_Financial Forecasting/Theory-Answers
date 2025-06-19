@@ -1,0 +1,15 @@
+Recursion is when a method calls itself.
+Recusrsion simplifies the problem into smaller subproblems and calls itself till base case is reached.
+It can be used to solve problems like - Fibonacci sequence , Find Factorial, Financial forecasting (e.g., compound growth) etc.
+
+Time Complexity of Recursive Algorithm
+
+Recursive Depth = Number of Calls = Depth of Call Stack = n (number of years) (in this case)
+
+Each recursive call does one multiplication, so:
+Time Complexity: O(n)
+Space Complexity: O(n) (due to call stack)
+
+We can optimize this various techniques like 
+-Top-Down Dynamic Programming called Memoization. (saves lots of computation)
+-Using a loop instead of Recursion. (Only for simple cases)
