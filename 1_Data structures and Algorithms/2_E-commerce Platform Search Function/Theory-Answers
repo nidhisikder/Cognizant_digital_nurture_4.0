@@ -1,0 +1,15 @@
+Understanding Big O notation
+Big O notation is used to describe the performance (time/space complexity) of an algorithm in terms of input size n.
+
+Best Case, Average Case, Worst Case Scenario for Linear Search is O(1), O(n), O(n) respectively.
+Best Case, Average Case, Worst Case Scenario for Binary Search is O(1), O(logn), O(logn) respectively.
+
+Analysis
+Time Complexiity of Binary Search is better than Linear Search as O(logn) < O(n), making Binary Search faster.
+Space Complexity of both Binary Search and Linear Search is O(1).
+
+For Binary Search, data should be sorted at first but Linear Search can be performed on sorted as well as unsorted data.
+
+For E-commerce Platform, 
+Since in real-life use cases data is going to be large, so binary search will be prefered.
+Binary Search Algorithm is suitable for large and sorted data. Hence it will be suitable for this platform as Search needs to be very fast.
