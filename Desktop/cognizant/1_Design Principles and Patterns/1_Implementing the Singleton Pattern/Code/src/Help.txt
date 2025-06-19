@@ -1,2 +1,0 @@
-src> java -d bin.*java
-src> java -cp bin LoggerTest.java
