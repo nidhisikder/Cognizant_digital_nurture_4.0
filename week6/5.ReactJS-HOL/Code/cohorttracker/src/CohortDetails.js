@@ -2,7 +2,7 @@ import styles from './CohortDetails.module.css';
 function CohortDetails(props) {
     return (
         <div className={styles.box}>
-            <h3 style={{color:props.cohort.currentStatus==='ongoing'? 'green': 'blue'}}>
+            <h3 style={{color:props.cohort.currentStatus==='Ongoing'? 'green': 'blue'}}>
                 {props.cohort.name} -
                 <span>{props.cohort.technology}</span>
             </h3>
